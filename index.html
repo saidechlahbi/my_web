@@ -1,56 +1,53 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codeur Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>codeur<span>blog</span></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Développement</a></li>
-                <li><a href="#">Graphisme</a></li>
-                <li><a href="#">Marketing</a></li>
-            </ul>
-        </nav>
-        <div class="header-right">
-            <a href="#" class="button">Trouver un freelance</a>
-            <a href="#" class="button">Trouver des clients</a>
-            <a href="#" class="button">Tous nos services</a>
-            <a href="#" class="button">Newsletter</a>
+        <div class="header-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button id="loginBtn">Se connecter</button>
+                <button id="signupBtn">S'inscrire</button>
+            </div>
         </div>
     </header>
-
-    <section class="hero">
-        <h2>Les meilleurs freelances e-commerce sont sur Codeur.com</h2>
-        <a href="#" class="button">Trouver un freelance</a>
-    </section>
-
     <main>
-        <article>
-            <h2>Comment créer un site e-commerce gratuit ? Les 10 étapes essentielles</h2>
-            <p>...</p>
-        </article>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Engagés pour l'emploi au Maroc et en Afrique</h1>
+                <p>Trouvez les meilleures opportunités d'emploi avec nous.</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Information about the company.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Details about services offered.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>How to get in touch.</p>
+        </section>
     </main>
-
     <footer>
-        <div class="social-links">
-            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-            <a href="#"><img src="twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="facebook.png" alt="Facebook"></a>
-        </div>
-        <div class="cookie-consent">
-            <p>Ce site utilise des cookies, vous pouvez <a href="#">les sélectionner</a>.</p>
-            <button class="button">Tout refuser</button>
-            <button class="button">Tout accepter</button>
-        </div>
+        <p>&copy; 2024 My Web. Tous droits réservés.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
 
